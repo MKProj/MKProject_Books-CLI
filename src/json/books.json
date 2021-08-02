@@ -1,0 +1,15 @@
+[
+    {
+        "code": "KOTB",
+        "name": "Kotlin Basics",
+        "pdf": "https://mkproj.com/Book/Basics/Downloads/Kotlin-Basics_pdf.zip",
+        "web": "https://mkproj.com/Book/Basics/Downloads/Kotlin-Basics_web.zip"
+}
+,
+{
+        "code": "CPPB",
+        "name": "C++ Basics", 
+        "pdf": "https://mkproj.com/Book/Basics/Downloads/CPPB-pdf.zip", 
+        "web": "https://mkproj.com/Book/Basics/Downloads/CPPB-web.zip"
+}
+]

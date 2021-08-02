@@ -1,7 +1,6 @@
 mod books;
 use books::Book;
 use structopt::StructOpt;
-use reqwest;
 
 #[derive(StructOpt)]
 #[structopt(
@@ -10,12 +9,18 @@ use reqwest;
 )]
 
 enum CLI{
+    #[structopt(
+        about = "Download a book by specifying the books code & format"
+    )]
     Get{
         #[structopt(short, long)]
         code: String, 
         #[structopt(short, long)]
         format: String
     },
+    #[structopt(
+        about = "Search for a book by specifying a name"
+    )]
     Search{
         #[structopt(short, long)]
         name: String
